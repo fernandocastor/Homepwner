@@ -12,6 +12,15 @@
 		ED4612971A77ADC600892F70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4612961A77ADC600892F70 /* Images.xcassets */; };
 		ED46129A1A77ADC600892F70 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4612981A77ADC600892F70 /* LaunchScreen.xib */; };
 		ED4612A61A77ADC600892F70 /* HomepwnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4612A51A77ADC600892F70 /* HomepwnerTests.m */; };
+		ED4612B11A77AE8C00892F70 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4612B01A77AE8C00892F70 /* ItemsViewController.m */; };
+		ED4612B71A77B0B600892F70 /* ItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4612B61A77B0B600892F70 /* ItemStore.m */; };
+		ED4612BA1A77BAB700892F70 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4612B91A77BAB700892F70 /* BNRItem.m */; };
+		ED5FC62B1A78F59D00BC562D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5FC6291A78F59D00BC562D /* DetailViewController.m */; };
+		ED5FC62C1A78F59D00BC562D /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED5FC62A1A78F59D00BC562D /* DetailViewController.xib */; };
+		ED9A03E91A7C224100596214 /* button_delete_01.png in Resources */ = {isa = PBXBuildFile; fileRef = ED9A03E81A7C224100596214 /* button_delete_01.png */; };
+		EDA931501A7963830036B07A /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA9314E1A7963830036B07A /* DatePickerViewController.m */; };
+		EDA931511A7963830036B07A /* DatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA9314F1A7963830036B07A /* DatePickerViewController.xib */; };
+		EDA931DC1A7BF64A0036B07A /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA931DB1A7BF64A0036B07A /* ImageStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,21 @@
 		ED46129F1A77ADC600892F70 /* HomepwnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomepwnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4612A41A77ADC600892F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED4612A51A77ADC600892F70 /* HomepwnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomepwnerTests.m; sourceTree = "<group>"; };
+		ED4612AF1A77AE8C00892F70 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemsViewController.h; path = ../ItemsViewController.h; sourceTree = "<group>"; };
+		ED4612B01A77AE8C00892F70 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemsViewController.m; path = ../ItemsViewController.m; sourceTree = "<group>"; };
+		ED4612B51A77B08C00892F70 /* ItemStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemStore.h; sourceTree = "<group>"; };
+		ED4612B61A77B0B600892F70 /* ItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemStore.m; sourceTree = "<group>"; };
+		ED4612B81A77BAB700892F70 /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		ED4612B91A77BAB700892F70 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		ED5FC6281A78F59D00BC562D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		ED5FC6291A78F59D00BC562D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		ED5FC62A1A78F59D00BC562D /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		ED9A03E81A7C224100596214 /* button_delete_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_delete_01.png; sourceTree = "<group>"; };
+		EDA9314D1A7963830036B07A /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		EDA9314E1A7963830036B07A /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		EDA9314F1A7963830036B07A /* DatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerViewController.xib; sourceTree = "<group>"; };
+		EDA931DA1A7BF6490036B07A /* Homepwner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Homepwner-Bridging-Header.h"; sourceTree = "<group>"; };
+		EDA931DB1A7BF64A0036B07A /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +100,26 @@
 		ED46128E1A77ADC600892F70 /* Homepwner */ = {
 			isa = PBXGroup;
 			children = (
+				ED9A03E81A7C224100596214 /* button_delete_01.png */,
+				ED5FC6281A78F59D00BC562D /* DetailViewController.h */,
+				ED5FC6291A78F59D00BC562D /* DetailViewController.m */,
+				EDA931DB1A7BF64A0036B07A /* ImageStore.swift */,
+				ED5FC62A1A78F59D00BC562D /* DetailViewController.xib */,
+				EDA9314D1A7963830036B07A /* DatePickerViewController.h */,
+				EDA9314E1A7963830036B07A /* DatePickerViewController.m */,
+				EDA9314F1A7963830036B07A /* DatePickerViewController.xib */,
+				ED4612B81A77BAB700892F70 /* BNRItem.h */,
+				ED4612B91A77BAB700892F70 /* BNRItem.m */,
+				ED4612B51A77B08C00892F70 /* ItemStore.h */,
+				ED4612B61A77B0B600892F70 /* ItemStore.m */,
+				ED4612AF1A77AE8C00892F70 /* ItemsViewController.h */,
+				ED4612B01A77AE8C00892F70 /* ItemsViewController.m */,
 				ED4612931A77ADC600892F70 /* AppDelegate.h */,
 				ED4612941A77ADC600892F70 /* AppDelegate.m */,
 				ED4612961A77ADC600892F70 /* Images.xcassets */,
 				ED4612981A77ADC600892F70 /* LaunchScreen.xib */,
 				ED46128F1A77ADC600892F70 /* Supporting Files */,
+				EDA931DA1A7BF6490036B07A /* Homepwner-Bridging-Header.h */,
 			);
 			path = Homepwner;
 			sourceTree = "<group>";
@@ -192,7 +231,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED46129A1A77ADC600892F70 /* LaunchScreen.xib in Resources */,
+				EDA931511A7963830036B07A /* DatePickerViewController.xib in Resources */,
+				ED9A03E91A7C224100596214 /* button_delete_01.png in Resources */,
 				ED4612971A77ADC600892F70 /* Images.xcassets in Resources */,
+				ED5FC62C1A78F59D00BC562D /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4612B11A77AE8C00892F70 /* ItemsViewController.m in Sources */,
+				EDA931501A7963830036B07A /* DatePickerViewController.m in Sources */,
+				ED4612BA1A77BAB700892F70 /* BNRItem.m in Sources */,
+				EDA931DC1A7BF64A0036B07A /* ImageStore.swift in Sources */,
 				ED4612951A77ADC600892F70 /* AppDelegate.m in Sources */,
 				ED4612921A77ADC600892F70 /* main.m in Sources */,
+				ED4612B71A77B0B600892F70 /* ItemStore.m in Sources */,
+				ED5FC62B1A78F59D00BC562D /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,9 +373,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = Homepwner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Homepwner/Homepwner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -335,9 +388,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = Homepwner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Homepwner/Homepwner-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -394,6 +451,7 @@
 				ED4612AB1A77ADC600892F70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED4612AC1A77ADC600892F70 /* Build configuration list for PBXNativeTarget "HomepwnerTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +460,7 @@
 				ED4612AE1A77ADC600892F70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

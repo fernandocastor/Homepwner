@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ItemsViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,10 +15,15 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    ItemsViewController *itemsControl = [[ItemsViewController alloc] init];
+    
+    // The following two lines create and introduce the UINavigationController, respectively. 
+    UINavigationController *navControl = [[UINavigationController alloc] initWithRootViewController:itemsControl];
+    self.window.rootViewController = navControl;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
